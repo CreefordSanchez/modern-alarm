@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.938);
+  text-align: center;
+}
+
+.current-time {
+  font-size: 100px;
+}
+
+.set-alarm {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.set-hour, .set-minutes {
+  width: 52px;
+  height: 27px;
+  text-align: center;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.39);
+  border-radius: 15px;
+  color: #fff;
+}
+
+.submit-btn {
+  margin-left: 10px;
+  border: none;
+  width: 97px;
+  height: 27px;
+  border: 5px;
+  border-radius: 15px;
+  background-color: #00ffa28c;
+  color: #fff;
+  text-align: center;
+}

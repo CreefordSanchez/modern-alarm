@@ -23,7 +23,6 @@ function checkAlarm(time) {
   let alarmValue = alarm.innerText;
   
   if (alarmValue === time) {
-    console.log('playing it');
     alarmSound.play();
   }
 }

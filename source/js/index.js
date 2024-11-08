@@ -23,7 +23,6 @@ function checkAlarm(time) {
   let alarmValue = alarm.innerText;
   
   if (alarmValue === time) {
-    console.log('playing it');
     alarmSound.play();
   }
 }
@@ -59,12 +58,8 @@ function addZero() {
   let hourValue = alarmHour.value;
   let minValue = alarmminutes.value
   
-  if (hourValue < 10) {
-    alarmHour.value = `0${hourValue}`;
-  }
-  if (minValue < 10) {
-    alarmminutes.value = `0${minValue}`;
-  }
+  if (hourValue < 10) alarmHour.value = `0${hourValue}`;
+  if (minValue < 10) alarmminutes.value = `0${minValue}`;
 }
 
 function isInRange() {
